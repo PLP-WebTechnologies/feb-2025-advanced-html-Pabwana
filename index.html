@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le restaurant francais :D</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Order List</h2>
+    <ol type="I">
+        <li>Le Croissant</li>
+        <li>Le The'</li>
+        <li>La Cafe</li>
+        <li>Gateau au yaourt</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Sample Image" />
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St, Cityville</td>
+            <td>(123) 456-7890</td>
+            <td>john@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Elm St, Townsville</td>
+            <td>(234) 567-8901</td>
+            <td>jane@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mike Johnson</td>
+            <td>789 Oak St, Villageburg</td>
+            <td>(345) 678-9012</td>
+            <td>mike@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Emily Davis</td>
+            <td>321 Pine St, Hamlet</td>
+            <td>(456) 789-0123</td>
+            <td>emily@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Chris Lee</td>
+            <td>654 Maple St, Metropolis</td>
+            <td>(567) 890-1234</td>
+            <td>chris@gmail.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="dropdown">Select an option:</label>
+        <select id="dropdown" name="options" required>
+            <option value="">Choose an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+
+        <fieldset>
+            <legend>Choose your favorite:</legend>
+            <input type="radio" id="choice1" name="choice" value="choice1" required />
+            <label for="choice1">Choice 1</label>
+            <input type="radio" id="choice2" name="choice" value="choice2" />
+            <label for="choice2">Choice 2</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select your interests:</legend>
+            <input type="checkbox" id="interest1" name="interests" value="interest1" />
+            <label for="interest1">Interest 1</label>
+            <input type="checkbox" id="interest2" name="interests" value="interest2" />
+            <label for="interest2">Interest 2</label>
+        </fieldset>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
